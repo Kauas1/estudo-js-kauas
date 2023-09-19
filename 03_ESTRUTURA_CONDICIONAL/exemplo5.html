@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let   horaBR, horaFR
+            
+        horaFR = parseInt (horaFR) 
+        horaFR = 5
+        horaBR = Number(prompt("Qual é o horario do brasil?"))
+        horaFR = horaBR + horaFR
+
+
+
+        if(horaFR > 23){
+            horaFR = horaFR - 24
+            alert(`O horario da frança é de ${horaFR}H.`)
+        }else if (horaFR < 24){
+            alert(`O horario da frança é de ${horaFR}H.`)
+        }else if(isNaN (horaFR)){
+            alert(`Coloque o horario sem o numero.`)
+            location.reload()
+
+        }
+
+    </script>
+</body>
+</html>

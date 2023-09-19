@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let n1, n2, n3, n4, media
+
+       n1 = Number(prompt("Digite a primeira nota"))
+       n2 = Number(prompt("Digite a segunda nota"))
+       n3 = Number(prompt("Digite a terceira nota"))
+       n4 = Number(prompt("Digite a quarta nota"))
+
+ if (isNaN (n1) || n1 > 10 || n1 < 0){
+    alert(`Nota ${n1} não é valido`)
+    location.reload()
+ }else if (isNaN (n2) || n2  > 10 || n2 < 0){
+    alert(`Nota ${n2} não é valido`)
+    location.reload()
+ }else if (isNaN (n3) || n3  > 10 || n3 < 0){
+    alert(`Nota ${n3} não é valido`)
+    location.reload()
+ }else if (isNaN (n4) || n4  > 10 || n4 < 0){
+    alert(`Nota ${n4} não é valido`)
+    location.reload()
+}
+        
+        media = (n1 + n2 + n3 + n4) / 4
+
+        if(media >= 7 && media <=10){
+            alert(`Você foi Aprovado com a nota ${media.toFixed(2)}` )
+        } else {
+            alert(`Você foi Reprovado com a nota ${media.toFixed(2)}`)
+            location.reload(2)
+        }
+
+        
+        
+
+
+    </script>
+
+
+</body>
+</html>

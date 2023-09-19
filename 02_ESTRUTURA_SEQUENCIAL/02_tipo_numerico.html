@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota1 = 1.0 //inteiro
+        let nota2 = 2.6 //real
+            //let nota 2 = parseFloat (prompt("Digite a nota 2"))
+            //let nota 2 = Numer (prompt("Digite a nota 2"))
+        console.log(typeof nota1)
+        console.log(typeof nota2)
+        console.log(nota1, nota2)
+
+        console.log(Number.isInteger(nota1))
+        console.log(Number.isInteger(nota2))
+
+
+        let total = nota1/nota2
+        console.log(total.toFixed(2)) // comsolidar a quantidade de casa decimal
+
+
+
+        /******************** CUIDADO ************************/
+
+        console.log(7/0) // infinity
+        console.log("6"/2) //work -> -, *, /, %,
+        console.log("6"+2 ) //dont work (Concatenar)
+        console.log(0.1+0.7)
+        console.log ("texto 8"/8)
+    </script>
+</body>
+</html> 

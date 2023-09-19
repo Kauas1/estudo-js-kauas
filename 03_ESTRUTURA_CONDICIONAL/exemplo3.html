@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+let altura,sexo, peso
+
+
+sexo = prompt("Digite o seu sexo biologico? (M) para masculino e (F) para Feminino.")
+altura = Number(prompt("Digite a sua altura"))
+
+altura = parseFloat(altura)
+peso
+
+ // toUpperCase() - Caixa alta
+ // tolowercase() - Caixa baixa
+sexo = sexo.toUpperCase()
+
+
+
+if(isNaN(altura) || altura === 0 || altura >= 2.51){
+    alert(`Digite uma altura válida até 2.51...`)
+    location.reload()
+}else if(sexo == "M" || sexo == "F") {
+    if(sexo == "M" ) {
+        peso = 22 * (altura * altura)
+        alert(`O seu peso ideal é de: ${peso.toFixed(2)}KG `)
+
+    }else if(sexo == "F" ){
+        peso = 21 * (altura * altura)
+        alert(`O seu peso ideal é de ${peso.toFixed(2)}KG `)
+    }
+}else{
+    alert(`Coloque apenas M ou F`)
+    location.reload()
+}
+
+
+
+
+
+
+</script>
+
+    
+</body>
+</html>

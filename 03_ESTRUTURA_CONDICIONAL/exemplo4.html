@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let bairro
+
+        bairro= parseInt(bairro)
+
+        bairro = Number(prompt("Escolha o bairro que deseja \n [1] Antares, [2] Barro Duro, [3] Bebedouro, [4] Benedito Bentes, [5] Centro, [6] Clima Bom, [7] Pajuçara, [8]Ponta Verde e [9]Jatiúca"))
+
+
+        if(bairro === 0 || isNaN(bairro) || bairro > 9 || bairro < 1){
+            alert(`O número ${bairro} não é valido nas opções.`)
+            location.reload(2)
+        }
+
+    switch(bairro){
+        case 1:
+            alert('O valor de entrega será de R$7,00')
+            break;
+        case 2:
+            alert('O valor de entrega será de R$5,00')
+            break;
+        case 3:
+            alert('O valor de entrega será de R$8,00')
+            break;
+        case 4:
+            alert('O valor de entrega será de R$6,00')
+            break;
+        case 5:
+            alert('O valor de entrega será de R$10,00')
+            break;
+        case 6:
+            alert('O valor de entrega será de R$4,00')
+            break;
+        case 7:
+        case 8:
+        case 9:
+            alert('O valor de entrega será de R$15,00')
+            break;
+
+
+
+    }
+
+ 
+
+    </script>
+
+
+</body>
+</html>

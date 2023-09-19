@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    
+    nm1 = Number(prompt("Insira o primeiro valor: "))
+
+   
+    nm2 = Number(prompt("Insira o segundo valor: "))
+    
+     if(nm1 === 0 || isNaN(nm1)){
+        alert(`Valor ${nm1} não é valido para o sistema`)
+        location.reload()
+    }else if(nm2 === 0 || isNaN(nm2)){
+        alert(`Valor ${nm2} não é valido para o sistema`)
+        location.reload()
+    }
+
+    if(nm1 > nm2){
+        alert(`O número ${nm1} é maior.`)
+    }else if (nm1 < nm2){
+        alert(`O número ${nm2} é maior`)
+    }else{
+        alert(`Os dois valores são iguais.`)
+        location.reload()
+    }
+        
+    
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
