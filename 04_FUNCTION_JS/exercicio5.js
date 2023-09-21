@@ -24,7 +24,7 @@ function Instagram(Nome, produto, valor, SeguidoresInsta, postagem) {
     desconto = desconto+ 10;
     return desconto
   case 'N':
-    alert("Você optou por não fazer nem Story ou Rell.");
+    alert("Você optou por não fazer nem Story ou Rells.");'1'
 }
 }
   }
