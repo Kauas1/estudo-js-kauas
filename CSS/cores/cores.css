@@ -1,0 +1,21 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46 ,139,87);
+    background-color: rgb(18% ,54.4%,87);
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(0, 100%, 50%);
+    background-color: #00FF00;
+    background-color: #0000FF;
+    background-color: #000;
+    background-color: #0ff5;
+    
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(120, 75%, 50%);
+}

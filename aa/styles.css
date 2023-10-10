@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilize a capa */
+  .capa {
+    background-image: url('sua-imagem-de-capa.jpg'); /* Substitua com o caminho para sua imagem de capa */
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  /* Estilize o menu de navegação */
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ff6600;
+  }
+  
+  /* Estilize o conteúdo principal */
+  .main-content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Estilos adicionais */
+  .ativo {
+    color: #ff6600 !important;
+    font-weight: bold;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+    .navbar ul {
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar li {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  }
+  

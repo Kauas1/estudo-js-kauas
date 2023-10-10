@@ -1,0 +1,20 @@
+#textoPreto{
+    color:black !important;
+}
+#textoVermelho{
+    color:red;
+}
+#textoVerde{
+    color: green;
+}
+#textoRoxo{
+    color:purple;
+}
+
+.subtitulo{
+    background-color: gray;
+}
+.palavraDestacada{
+    color:cadetblue;
+
+}
