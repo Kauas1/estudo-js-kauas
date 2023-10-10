@@ -1,0 +1,49 @@
+:root {
+    --primary-color: purple;
+    --background-color: #3414c2a2;
+    --light-primary-color: #7E1196;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/65/99/8d/65998d8238e2aeb7bb1587b0af716f4b.png");
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+    height: 725px;
+    border: 5px solid var(--background-color);
+}
+
+header {
+    text-align: center;
+    background-color: rgba(129, 42, 129, 0.616);
+    padding: 10px;
+}
+
+nav {
+    padding: 30px;
+    background-color: goldenrod;
+    text-align: center;
+    border: 7px solid var(--background-color);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--background-color);
+    font-size: 25px;
+    margin: 20px;
+    border: 5px double var(--background-color);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+main {
+    background-color: goldenrod;
+    color: var(--light-primary-color);
+}
+
+.juntar {
+    background-color: goldenrod;
+}
