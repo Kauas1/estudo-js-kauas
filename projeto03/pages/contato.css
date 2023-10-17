@@ -1,7 +1,9 @@
 :root {
     --primary-color: purple;
-    --background-color: #3414c2a2;
-    --light-primary-color: #7E1196;
+    --background-color: #ffe735;
+    --light-primary-color: #9041cc ;
+    --secondary-main-color: #77b42b;
+    --nav-main-color: #8b0f3b;
 }
 
 body {
@@ -9,16 +11,19 @@ body {
 }
 
 .container {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
-    max-width: 900px;
-    height: 725px;
+    width: 1000px;
+    height: auto;
     border: 5px solid var(--background-color);
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 header {
     text-align: center;
-    background-color: rgba(129, 42, 129, 0.616);
+    background-color: rgba(10, 189, 63, 0.616);
     padding: 10px;
 }
 
@@ -29,26 +34,30 @@ img{
 
 nav {
     padding: 30px;
-    background-color: goldenrod;
+    background-color: var(--secondary-main-color);
     text-align: center;
     border: 7px solid var(--background-color);
 }
 
 .nav-link {
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--nav-main-color);
     font-size: 25px;
     margin: 20px;
-    border: 5px double var(--background-color);
+    border: 5px double var(--nav-main-color);
     border-radius: 10px;
     padding: 3px;
 }
 
 main {
-    background-color: goldenrod;
-    color: var(--light-primary-color);
+    background-color: var(--secondary-main-color);
+    color: var(--nav-main-color);
 }
 
 .juntar {
-    background-color: goldenrod;
+    background-color: var(--secondary-main-color);
+}
+
+.foot{
+    margin-bottom: 0px;
 }

@@ -1,7 +1,7 @@
 :root {
-    --primary-color: purple;
-    --background-color: #3414c2a2;
-    --light-primary-color: #7E1196;
+    --background-color: #c765be;
+    --secondary-main-color: #f6b95a;
+    --Nav-Main-color: #b92dab;
 }
 
 body {
@@ -18,41 +18,45 @@ body {
     margin-left: auto;
 }
 
+
 header {
     text-align: center;
-    background-color: rgba(129, 42, 129, 0.616);
+    background-color:#E9D281d8;
     padding: 10px;
+}
+
+img{
+    width: 728px;
+    height: 410px;
 }
 
 nav {
     padding: 30px;
-    background-color: goldenrod;
+    background-color: var(--secondary-main-color);
     text-align: center;
     border: 7px solid var(--background-color);
 }
 
 .nav-link {
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--Nav-Main-color);
     font-size: 25px;
     margin: 20px;
-    border: 5px double var(--background-color);
+    border: 5px double var(--Nav-Main-color);
     border-radius: 10px;
     padding: 3px;
 }
 
 main {
-    background-color: goldenrod;
-    color: var(--light-primary-color);
-    text-align: justify;
-    padding: 10px;
+    background-color: var(--secondary-main-color);
+    color: var(--Nav-Main-color);
 }
 
 .juntar {
-    background-color: goldenrod;
-    
+    background-color: var(--secondary-main-color);
 }
 
 .foot{
     margin-bottom: 0px;
+
 }
